@@ -1,6 +1,6 @@
 # 🐧 Ubuntu Configs ⚙️
 
-![Pokemon Linux](https://i.gifer.com/1AoL.gif)
+![Linux vs GitHub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wlqz1ybvil42fg9ysbtz.gif)
 
 - [Terminal](#💲-Terminal-🏴‍☠️)
   - [Package Manager](#Package-Manager) 
@@ -22,13 +22,13 @@
 
 ### NPM
 
-```
+```js
 $ sudo apt install npm
 ```
 
 ### SNAP
 
-```
+```js
 $ sudo apt-get install snapd snapd-xdg-open
 ```
 
@@ -44,13 +44,13 @@ $ apt-get install git
 
 - Install
 
-```
+```js
 $ sudo apt install nodejs
 ```
 
 - Remove
 
-```
+```js
 $ sudo apt remove nodejs
 ```
 
@@ -63,19 +63,19 @@ $ sudo apt remove nodejs
 
 - Install
 
-```
+```js
 $ sudo snap install --classic vscode
 ```
 
 - Att
 
-```
+```js
 sudo snap refresh vscode
 ```
 
 - Remove
 
-```
+```js
 sudo snap remove vscode
 ```
 
@@ -85,7 +85,7 @@ sudo snap remove vscode
 
 ## Discord 👺
 
-```
+```js
 $ wget https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb
 ```
 
