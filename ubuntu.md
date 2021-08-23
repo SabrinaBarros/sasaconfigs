@@ -6,6 +6,7 @@
   - [Package Manager](#Package-Manager) 
     - [NPM](#npm)
     - [SNAP](#snap)
+    - [YARN](#yarn)
   - [GIT](#git-🔗)
   - [Node](#Node-🥝)
 - [Dev App's](#🖥-Dev-app's-📃)
@@ -13,6 +14,7 @@
 - [Utilities](#-🎧-Utilities-🎲)
   - [Discord](#Discord-👺)
   - [Spotify ](#Spotify-🎶)
+  - [Krita](#krita-🎨)
 
 # 💲 Terminal 🏴‍☠️
 
