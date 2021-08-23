@@ -16,27 +16,33 @@
 
 # 💲 Terminal 🏴‍☠️
 
-![Soft Tired](https://data.whicdn.com/images/325724253/original.gif))
+![Soft Tired](https://data.whicdn.com/images/325724253/original.gif)
 
 ## Package Manager 🗃
 
 ### NPM
 
-```js
+```
 $ sudo apt install npm
 ```
 
 ### SNAP
 
-```js
+```
 $ sudo apt-get install snapd snapd-xdg-open
+```
+
+### YARN
+
+```
+$ 
 ```
 
 <hr>
 
 ## GIT 🔗
 
-```js
+```
 $ apt-get install git
 ```
 
@@ -44,14 +50,14 @@ $ apt-get install git
 
 - Install
 
-```js
-$ sudo apt install nodejs
+```
+$ sudo apt install node
 ```
 
 - Remove
 
-```js
-$ sudo apt remove nodejs
+```
+$ sudo apt remove node
 ```
 
 # 🖥 Dev app's 📃
@@ -63,19 +69,19 @@ $ sudo apt remove nodejs
 
 - Install
 
-```js
+```
 $ sudo snap install --classic vscode
 ```
 
 - Att
 
-```js
+```
 sudo snap refresh vscode
 ```
 
 - Remove
 
-```js
+```
 sudo snap remove vscode
 ```
 
@@ -85,17 +91,36 @@ sudo snap remove vscode
 
 ## Discord 👺
 
-```js
+```
 $ wget https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb
 ```
 
 ```
 $ sudo apt install ./discord-0.0.12.deb
-
 ```
 
 ## Spotify 🎶
 
 ```
 $ snap install spotify
+```
+
+## Krita 🎨
+
+- Add repository
+
+```
+sudo add-apt-repository ppa:kritalime/ppa
+```
+
+- Update APT
+
+```
+sudo apt-get update
+```
+
+- Install
+
+```
+sudo apt-get install krita
 ```
