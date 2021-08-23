@@ -34,8 +34,16 @@ $ sudo apt-get install snapd snapd-xdg-open
 
 ### YARN
 
+- NPM
+
 ```
-$ 
+sudo npm install yarn -g
+```
+
+- Curl (*recommended*)
+
+```
+$ curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
 <hr>
