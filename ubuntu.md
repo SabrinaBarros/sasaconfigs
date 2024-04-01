@@ -2,72 +2,96 @@
 
 ![Linux vs GitHub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wlqz1ybvil42fg9ysbtz.gif)
 
-- [Terminal](#💲-Terminal-🏴‍☠️)
-  - [Package Manager](#Package-Manager) 
-    - [NPM](#npm)
-    - [SNAP](#snap)
-    - [YARN](#yarn)
+- [Terminal](#💲-terminal-🏴‍☠️)
   - [GIT](#git-🔗)
+    - [SSH Auth](#ssh-auth)
+  - [Package Manager](#package-manager-🗃)
+    - [NPM](#npm)
   - [Node](#Node-🥝)
-- [Dev App's](#🖥-Dev-app's-📃)
-  - [VS Code](#VS-Code-👁️)
-- [Utilities](#-🎧-Utilities-🎲)
-  - [Discord](#Discord-👺)
-  - [Spotify ](#Spotify-🎶)
+    - [Node Version Manager](#node-version-manager)
+      - [N](#n)
+- [Dev App's](#🖥-dev-app's-📃)
+  - [VS Code](#vs-code-👁️)
+- [Utilities](#🎧-utilities-🎲)
+  - [Discord](#discord-👺)
+  - [Spotify ](#spotify-🎶)
   - [Krita](#krita-🎨)
 
 # 💲 Terminal 🏴‍☠️
 
-![Soft Tired](https://data.whicdn.com/images/325724253/original.gif)
+![Computer error](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vts1hgq2ijfx8ierix34.gif)
+
+## GIT 🔗
+
+- Install
+
+```shell
+$ apt-get install git
+```
+
+- Configs
+
+```shell
+$ git config --global user.name "Sabrina Barros"
+$ git config --global user.email sabrina.barros2045@gmail.com
+```
+
+```shell
+$ git config --global init.defaultBranch main
+```
+
+### SSH Auth
+
+- Generate Key
+
+```shell
+$ ssh-keygen -t ed25519 -C "sabrina.barros2045@gmail.com"
+```
+
+- Add to SSH Agent
+
+```shell
+$ eval "$(ssh-agent -s)"
+```
+
+```shell
+$ ssh-add ~/.ssh/id_ed25519
+```
+
+- Access SSH Key
+
+```shell
+$ cat ~/.ssh/id_ed25519.pub
+```
 
 ## Package Manager 🗃
 
 ### NPM
 
-```
+```shell
 $ sudo apt install npm
-```
-
-### SNAP
-
-```
-$ sudo apt-get install snapd snapd-xdg-open
-```
-
-### YARN
-
-- NPM
-
-```
-sudo npm install yarn -g
-```
-
-- Curl (*recommended*)
-
-```
-$ curl -o- -L https://yarnpkg.com/install.sh | bash
-```
-
-<hr>
-
-## GIT 🔗
-
-```
-$ apt-get install git
 ```
 
 ## Node 🥝
 
 - Install
 
-```
-$ sudo apt install node
+```shell
+$ sudo apt install nodejs
 ```
 
-- Remove
+- Verify Node Version
 
+```shell
+$ nodejs -v
 ```
-$ sudo apt remove node
+
+### Node Version Manager
+
+#### N
+
+```shell
+$ npm install -g n
 ```
 
 # 🖥 Dev app's 📃
@@ -77,22 +101,12 @@ $ sudo apt remove node
 
 ## VS Code 👁️
 
+- Download [.deb package (64-bit)](https://code.visualstudio.com/docs/setup/linux)
+
 - Install
 
 ```
-$ sudo snap install --classic vscode
-```
-
-- Att
-
-```
-sudo snap refresh vscode
-```
-
-- Remove
-
-```
-sudo snap remove vscode
+$ sudo apt install ./vsc.deb
 ```
 
 # 🎧 Utilities 🎲
